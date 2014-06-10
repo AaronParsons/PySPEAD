@@ -10,6 +10,7 @@ Data packet:
 import socket, math, numpy, logging, sys, time, struct
 from numpy.lib.utils import safe_eval
 from _spead import *
+# Use Queue instead of lists in TransportUDPrx?
 
 logger = logging.getLogger('spead')
 
